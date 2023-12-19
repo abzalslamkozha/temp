@@ -1,0 +1,47 @@
+.icon-game {
+    top: 150px;
+    left: 450px;
+    position: absolute;
+    animation: gameA 0.5s;
+}
+
+.icon-of {
+    position: absolute;
+    top: calc(150px + 56px);
+    left: calc(450px + 255px);
+    animation: ofA 0.5s;
+}
+
+.icon-drones {
+    position: absolute;
+    top: calc(150px + 120px);
+    left: calc(450px + 135px);
+    animation: dronesA 0.5s;
+}
+
+@keyframes gameA {
+    0% {
+        transform: translate3d(-450px, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes ofA {
+    0% {
+        transform: translate3d(0, -306px, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes dronesA {
+    0% {
+        transform: translate3d(1000px, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}

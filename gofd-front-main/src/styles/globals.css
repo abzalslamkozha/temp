@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-orange: #ff4c00;
+        --color-green: #0fed68;
+        --color-red: #f72d2d;
+        --color-blue-bg: rgba(27, 35, 202, 0.4);
+        --color-blue-text: #0c0e4a;
+        --color-white-hover: #eeedf0;
+    }
+}
+
+body {
+    background: radial-gradient(circle, #0b0f67, #0b0b28);
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-orange);
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
